@@ -14,20 +14,20 @@ body
 
 a
 {
-	color: rgb(167,22,53);
+	color: rgb(150,46,255);
 }
 
 .selected
 {
-	background-color: rgb(242,151,171);
-	color: rgb(167,22,53);
+	background-color: rgb(212,168,255);
+	color: rgb(150,46,255);
 	text-decoration: underline;
     border-radius: 0.25em;
 }
 
 .selectedFake
 {
-	background-color: rgb(242,151,171);
+	background-color: rgb(212,168,255);
 	color: rgb(167,22,53);
 	text-decoration: underline;
     border-radius: 0.25em;
@@ -60,7 +60,7 @@ a
 
 .logoDot
 {
-	color: rgb(227,82,113);
+	color: rgb(89,0,179);
 }
 
 .postTitle
