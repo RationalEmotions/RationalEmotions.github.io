@@ -1,0 +1,5 @@
+markdown: redcarpet
+exclude: ['README.md']
+baseurl: ""
+permalink: texts/:title
+

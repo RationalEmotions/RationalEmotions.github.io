@@ -1,0 +1,374 @@
+---
+---
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+
+
+body 
+{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.20em;
+	text-align: justify;
+}
+
+a
+{
+	color: rgb(167,22,53);
+}
+
+.selected
+{
+	background-color: rgb(242,151,171);
+	color: rgb(167,22,53);
+	text-decoration: underline;
+    border-radius: 0.25em;
+}
+
+.selectedFake
+{
+	background-color: rgb(242,151,171);
+	color: rgb(167,22,53);
+	text-decoration: underline;
+    border-radius: 0.25em;
+    pointer-events: none;
+}
+
+.logo
+{
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 1.9em;
+	font-weight: 700;
+	text-align: center;
+}
+
+.logoLink
+{
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+	font-size: 1.9em;
+	font-weight: 700;
+	text-align: center;
+}
+
+.logoDot
+{
+	color: rgb(227,82,113);
+}
+
+.postTitle
+{
+	font-size: 1.20em;
+	text-align: center;
+    font-weight: bold;
+}
+
+.postDate
+{
+	text-align: center;
+}
+
+.divider
+{
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.soundCloud
+{
+	width: 70%; 
+	height: 250; 
+}
+
+.bulletsWithoutBullets
+{
+	list-style-type: none;
+}
+
+.foreignLanguage
+{
+	color: gray;
+}
+
+.foreignLanguage a
+{
+	color: gray;
+}
+
+.embed-container-YouTube235
+{ 
+	position: relative; 
+	padding-bottom: 36.75%;
+	/* padding-bottom: 36%; */
+	height: 0; 
+	overflow: hidden; 
+	max-width: 90%; 
+} 
+.embed-container-YouTube235 iframe, 
+.embed-container-YouTube235 object, 
+.embed-container-YouTube235 embed 
+{ 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.embed-container-YouTube235_alt
+{ 
+	position: relative; 
+	padding-bottom: 36%;
+	/* padding-bottom: 36%; */
+	height: 0; 
+	overflow: hidden; 
+	max-width: 90%; 
+} 
+.embed-container-YouTube235_alt iframe, 
+.embed-container-YouTube235_alt object, 
+.embed-container-YouTube235_alt embed 
+{ 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.embed-container-Vimeo
+{ 
+	position: relative; 
+	padding-bottom: 39%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 90%; 
+} 
+.embed-container-Vimeo iframe, 
+.embed-container-Vimeo object, 
+.embed-container-Vimeo embed 
+{ 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+	padding: 2em;
+	width: 38em;
+}
+
+.indented
+{
+	padding-top: 0.01em;
+	margin-left: 2em;
+}
+
+.navigation
+{
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.textBlock
+{
+	text-align: justify;
+}
+
+.textBlock a
+{
+	color: rgb(167,22,53);
+}
+
+h1
+{
+	font-size: 1.20em;
+	text-align: center;
+    font-weight: bold;
+}
+
+h2
+{
+	font-size: 1.15em;
+	font-weight: 400;
+}
+
+.img
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.imgTop
+{
+    margin-bottom: 2em;
+}
+
+.icon
+{
+	width: 1em;
+}
+
+.iconJekyll
+{
+	width: 0.5em;
+}
+
+img.logo
+{
+    display: block;
+	margin: 0 auto;
+	width: 10em;
+}
+
+img.text
+{
+    display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+img.profile
+{
+    display: block;
+	margin: 0 auto;
+	min-width: 40%;
+    max-width: 40%;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+	
+	body
+	{
+		text-align: left;
+	}
+
+	.textBlock
+	{
+		text-align: left;
+	}
+
+	.embed-container 
+	{ 
+		padding-bottom: 40.00%; 
+		max-width: 95%; 
+	} 
+}
+
+@media only screen and (min-width: 1px) and (max-width: 800px) {
+
+	body 
+	{
+		font-size: 1em;
+		text-align: justify;
+	}
+
+	.wrapper
+	{
+    	margin-left: auto;
+    	margin-right: auto;
+		padding: 0em;
+		border: 0em;
+		width: 97.5%;
+	}
+
+	.logo
+	{
+		text-decoration: none;
+ 	   	margin-left: auto;
+    	margin-right: auto;
+		font-size: 1.7em;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.navigation
+	{
+    	margin-left: auto;
+    	margin-right: auto;
+		text-align: center;
+		margin-top: 2em;
+	}
+	
+	.textBlock
+	{
+		text-align: justify;
+	}
+}
+
+@media only screen and (max-device-width: 600px){
+	img.profile
+	{
+		min-width: 60%;
+		max-width: 60%;
+	}
+
+	.soundCloud
+	{
+		width: 100%; 
+		height: 450; 
+	}
+}
+
+@media only screen and (max-device-width: 600px) and (orientation:portrait){
+
+	body
+	{
+		font-size: 1.15em;
+	}
+
+	.textBlock
+	{
+		text-align: left;
+	}
+
+	.wrapper
+	{
+    	margin-left: auto;
+    	margin-right: auto;
+		padding: 0em;
+		border: 0em;
+		width: 97.5%;
+	}
+
+	.footer
+	{
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (max-device-width: 600px) and (orientation:landscape){
+
+	body
+	{
+		font-size: 1em;
+	}
+
+	.textBlock
+	{
+		text-align: left;
+	}
+
+	.wrapper
+	{
+    	margin-left: auto;
+    	margin-right: auto;
+		padding: 0em;
+		border: 0em;
+		width: 95%;
+	}
+}
